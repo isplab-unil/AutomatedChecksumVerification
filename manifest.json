@@ -1,11 +1,11 @@
 
 {
     "name": "__MSG_extName__",
-    "version": "0.2",
+    "version": "0.3",
     "manifest_version": 2,
     "description": "__MSG_extDesc__",
-    "icons": {"16": "icon16.png", "128": "icon128.png"},
-    "background": {"persistent": false, "scripts": ["scripts/asmcrypto.js", "scripts/md5.js", "scripts/jquery.js", "scripts/openpgp.js", "scripts/background.js"]},
+    "icons": {"16": "icons/icon16.png", "128": "icons/icon128.png"},
+    "background": {"persistent": false, "scripts": ["scripts/md5.js", "scripts/background.js"]},
     "content_scripts": [
         {
           "matches": ["http://*/*", "https://*/*", "file://*"],
@@ -14,6 +14,6 @@
         }
       ],
     "default_locale": "en",
-    "permissions": ["tabs", "contextMenus", "downloads", "downloads.open", "http://*/*", "https://*/*", "file://*"], 
-    "web_accessible_resources": ["css/*", "scripts/*", "webfonts/*"]
+    "permissions": ["alarms", "downloads", "tabs", "downloads.open", "http://*/*", "https://*/*", "file://*"], 
+    "web_accessible_resources": ["css/*", "scripts/*", "webfonts/*", "icons/*"]
 }

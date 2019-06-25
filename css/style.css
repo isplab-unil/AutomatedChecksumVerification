@@ -4,37 +4,52 @@
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
-    top: 0px;
+    top: 0;
     left: 0px;
     z-index: 1000000000;
 }
 
 #popup {
-    font-family: "PT Sans";
+    font-family: 'Roboto', 'system-ui', sans-serif;
+    font-size: 100%;
+    font-weight: lighter;
     background-color: white;
     min-width: 600px;
     width: 30%;
     margin: auto;
+    margin-top: 0.5%;
     padding: .5em;
+    padding-bottom: 1em;
     text-align: justify;
     border-radius: 10px;
+    color: rgb(95, 99, 105);
 }
 
 #popup a {
-    color: rgb(0, 129, 197);
+    color: rgb(95, 99, 105);
+    text-decoration: underline;
+}
+
+#adanger{
+    font-size: 80%;
 }
 
 #popup div.title {
-    font-size: 110%;
-    font-weight: bold;
+    font-size: 120%;
     text-align: center;
     margin: auto;
+    max-width: 90%;
+}
+
+#popup div.content {
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #popup #status {
     text-align: justify;
     width: fit-content;
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
 }
 
