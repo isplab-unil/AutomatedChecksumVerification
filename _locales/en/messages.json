@@ -1,0 +1,53 @@
+{"extName": {
+  "message": "Automated Checksum Verification",
+  "description": "Extension name"},
+"extDesc": {
+  "message": "Automated Checksum Verification is an extension made to ensure the integrity of potentially dangerous files.",
+  "description": "Extension description"},
+"lang":{
+  "message":"en",
+  "description":"variable to get language"
+},
+"extOptionsShare":{
+  "message": "<label for='shareVerification'><input type='checkbox' id='shareVerification'> I agree to share the information about the potentially dangerous files I encounter.</label><br><label for='shareChecksums'><input type='checkbox' id='shareChecksums'> I agree to share the information about the checksums I encounter on the web.</label>",
+  "description": "Extension option page sharing"},
+"extOptionsUX":{
+  "message": "<label for='alertOnlyDanger'><input type='checkbox' id='alertOnlyDanger'> Receve message from the extension only in case of danger.</label>",
+  "description": "Extension option page user interaction"},
+"openContextMenuTitle": {
+  "message": "Verification of download integrity",
+  "description": "popup menu button text"},
+"popupTitle": {
+  "message": "Verification of download integrity",
+  "description": "Popup title"},
+"popupDetails": {
+  "message": "The link you clicked on has triggered a download and checksums were found on the webpage. Once the download is complete, the downloaded file will be checked against the found checksums and you will be notified of the result.",
+  "description": "Popup details about the action being taken by the plugin"},
+"popupStatusDownloading": {
+  "message": "<span class='mt-4 mb-2 d-flex justify-content-center'><i class='fas fa-download'></i> <span class='ml-2 mr-2'>Downloading... </span><i class='fa fa-spinner fa-spin'></i></span>",
+  "description": "Popup status for download"},
+"popupStatusComputing": {
+  "message": "<span class='mt-4 mb-2 d-flex justify-content-center'><i class='fas fa-cogs'></i> <span class='ml-2 mr-2'>Computing checksum... </span><i class='fa fa-spinner fa-spin'></i></span>",
+  "description": "Popup status for computing"},
+"popupStatusValid": {
+  "message": "<div class='row mb-2'><div class='align-self-center text-center col-1'><i class='fas fa-shield-alt' style='color: green; font-size: 200%'></i></i></div><div class='col-11'>The checksum computed from the downloaded file matches one of the checksums found on the webpage.</div>",
+  "description": "Popup status for succesful verification"},
+"popupStatusInvalid": {
+  "message": "<div class='row mb-2'><div class='align-self-top text-center col-1 mt-1'><i class='fas fa-exclamation-triangle' style='color: red; font-size: 200%;'></i></div><div class='col-11'>The checksum computed from the downloaded file does not match any of the checksums found on the webpage. This means that either the file has been corrupted or that the checksums specified on the webpage correspond to other files. If you suspect the downloaded file has been corrupted, it is advised to <a id='delete' href='#'>delete</a> the downloaded file.</div></div>",
+  "description": "Popup status for unsuccesful verification"},
+"popupStatusDeleted": {
+    "message": "<i class='fas fa-times-circle' style='color: red;''></i> The downloaded file has been deleted.",
+    "description": "The downloaded file has been deleted"},
+"contentPopupTitle": {
+    "message": "This file might be dangerous, your plugin will verify its integrity",
+    "description": "Title of the alert in the webpage"},
+"contentPopupTitleUnsafe": {
+    "message": "<b>Be careful, This file might be dangerous!</b>",
+    "description": "Title of the alert in the webpage"},
+"contentPopupTitleSafe": {
+    "message": "This file match one of the checksum of the page",
+    "description": "Title of the alert in the webpage"},
+"save": {
+      "message": "Save",
+      "description":"save"}
+}

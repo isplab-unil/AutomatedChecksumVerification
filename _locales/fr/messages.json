@@ -1,0 +1,52 @@
+{"extName": {
+  "message": "Vérification Automatique de Checksum",
+  "description": "Nom de l'extension"},
+  "extDesc": {
+    "message": "Télécharge et effectue des vérifications d'intégrité pour les fichiers potentiellement dangereux.",
+    "description": "Extension description"},
+  "lang":{
+    "message":"fr",
+    "description":"variable to get language"},
+  "extOptionsShare":{
+    "message": "<label for='shareVerification'><input type='checkbox' id='shareVerification'> I agree to share the information about the potentially dangerous files I encounter.</label><br><label for='shareChecksums'><input type='checkbox' id='shareChecksums'> I agree to share the information about the checksums I encounter on the web.</label>",
+    "description": "Page d'option pour l'extension partage"},
+  "extOptionsUX":{
+    "message": "<label for='alertOnlyDanger'><input type='checkbox' id='alertOnlyDanger'> Receve message from the extension only in case of danger.</label>",
+    "description": "Page d'option pour l'extension intéraction utilisateur"},
+  "openContextMenuTitle": {
+    "message": "Vérification de l’integrité du téléchargement",
+    "description": "Titre du bouton du popup"},
+  "popupTitle": {
+    "message": "Verification de l'intégrité du téléchargement",
+    "description": "Titre du popup"},
+  "popupDetails": {
+    "message": "Le fichier pourrait avoir été corrompu, une extension du navigateur en vérifie l'intégrité.",
+    "description": "Explications sur les actions prises par le plugin"},
+  "popupStatusDownloading": {
+    "message": "<span class='mt-4 mb-2 d-flex justify-content-center'><i class='fas fa-download'></i> <span class='ml-2 mr-2'>Téléchargement du fichier en cours... </span><i class='fa fa-spinner fa-spin'></i></span>",
+    "description": "Popup status for download"},
+  "popupStatusComputing": {
+    "message": "<span class='mt-4 mb-2 d-flex justify-content-center'><i class='fas fa-cogs'></i> <span class='ml-2 mr-2'>Calcul de l'empreinte du fichier en cours... </span><i class='fa fa-spinner fa-spin'></i></span>",
+    "description": "Popup status for computing"},
+  "popupStatusValid": {
+    "message": "<div class='row mb-2'><div class='align-self-center text-center col-1'><i class='fas fa-shield-alt' style='color: green; font-size: 200%'></i></i></div><div class='col-11'>L'empreinte du fichier téléchargé correspond à l'empreinte surlignée dans la page web.</div>",
+    "description": "Etat si la vérification réussi"},
+  "popupStatusInvalid": {
+    "message": "<div class='row mb-2'><div class='align-self-top text-center col-1 mt-1'><i class='fas fa-exclamation-triangle' style='color: red; font-size: 200%;'></i></div><div class='col-11'>L'empreinte du fichier téléchargé ne correspond à aucune des empreintes spécifiée sur la page web. Celà signifie que le fichier a été corrompu ou que les empreintes spécifiées sur la page web correspondent en fait à d'autres téléchargements. Si vous pensez que votre téléchargement a été corrompu, il est conseillé de <a id='delete' href='#'>supprimer</a> le fichier téléchargé.</div></div>",
+    "description": "Etat si la vérification rate"},
+  "popupStatusDeleted": {
+      "message": "<i class='fas fa-times-circle' style='color: red;''></i> Le fichier téléchargé a été supprimé.",
+      "description": "Le fichier téléchargé a été supprimé"},
+  "contentPopupTitle": {
+      "message": "Le fichier pourrait avoir été corrompu, une extension du navigateur en vérifie l'intégrité",
+      "description": "Titre du premier message d'alerte dans la page web"},
+  "contentPopupTitleUnsafe": {
+    "message": "<b>Le fichier téléchargé a potentiellement été corrompu!</b>",
+    "description": "Title of the alert in the webpage"},
+  "contentPopupTitleSafe": {
+    "message": "L'intégrité du fichier téléchargé a été vérifiée avec succès",
+    "description": "Title of the alert in the webpage"},
+  "save": {
+      "message": "Sauvegarder",
+      "description":"sauvegarder"}
+}
